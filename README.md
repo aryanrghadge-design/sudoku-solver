@@ -26,7 +26,7 @@ The solved board is printed with horizontal and vertical separators every 3 rows
 
 Usage:
 
-pythonpython sudoku_solver.py
+python sudoku_solver.py
 
 To use a custom board, modify the default_board variable in the script. Use 0 to represent empty cells.
 
