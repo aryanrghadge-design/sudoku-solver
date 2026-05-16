@@ -6,7 +6,9 @@ How It Works:
 The solver works by finding empty cells and systematically trying numbers 1–9 in each one. Before placing a number, it checks three constraints:
 
 The number doesn't already appear in the same row
+
 The number doesn't already appear in the same column
+
 The number doesn't already appear in the same 3×3 box
 
 If a placement passes all three checks, the algorithm places the number and recurses to the next empty cell. If it reaches a dead end — a cell where no number is valid — it backtracks, undoing the last placement and trying the next candidate.
