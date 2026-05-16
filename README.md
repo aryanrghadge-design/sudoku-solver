@@ -17,12 +17,15 @@ This is significantly more efficient than brute force. A naive approach would ne
 Algorithm Properties:
 
 Correct — guaranteed to find a solution if one exists
+
 Efficient — prunes invalid branches before exploring further, avoiding unnecessary computation
 
-Output Format
+Output Format:
+
 The solved board is printed with horizontal and vertical separators every 3 rows and columns, replicating the visual structure of a standard Sudoku grid.
 
 Usage:
+
 pythonpython sudoku_solver.py
 
 To use a custom board, modify the default_board variable in the script. Use 0 to represent empty cells.
